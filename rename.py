@@ -17,13 +17,13 @@ def rename_files(path, suffixe):
     i = 0
     for file in files:
         # Renommer le fichier
-        os.rename(file, "<region>" + suffixe + "_" + str(i) + ".png")
+        os.rename(file, "<region>" + suffixe + "_" + str(i) + ".png") #TODO : à modifier avec votre region
         i += 1
     print("Vos fichiers sont sûrement au même niveau que rename.py")
 
 # Renommer les fichiers du répertoire Apprentissage
-rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Apprentissage/<region>/", "A")
+rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Apprentissage/<region>/", "A")  #TODO : à modifier avec votre path
 # Renommer les fichiers du répertoire Validation
-rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Validation/<region>/", "V")
+rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Validation/<region>/", "V") #TODO : à modifier avec votre path
 # Renommer les fichiers du répertoire Test
-rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Test/<region>/", "T")
+rename_files("<mettre votre path>/ApprentissageProfond/DataBase/Test/<region>/", "T") #TODO : à modifier avec votre path
