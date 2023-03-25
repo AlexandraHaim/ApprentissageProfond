@@ -12,12 +12,12 @@ import glob
 def rename_files(path, suffixe):
     # Récupérer les fichiers
     files = glob.glob(path + "/*")
-    print(len(files))
+    print(len(files) + "fichier(s) ont été trouvés");
     # Parcourir les fichiers
     i = 0
     for file in files:
         # Renommer le fichier
-        os.rename(file, "AmeriqueN" + suffixe + "_" + str(i) + ".png")	#TODO : mettre votre région
+        os.rename(file, "AmeriqueN_" + suffixe + "_" + str(i) + ".png")	#TODO : mettre votre région
         i += 1
     print("Vos fichiers sont sûrement au même niveau que rename.py")
 
