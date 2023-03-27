@@ -17,13 +17,13 @@ def rename_files(path, suffixe):
     i = 0
     for file in files:
         # Renommer le fichier
-        os.rename(file, "AmeriqueN_" + suffixe + "_" + str(i) + ".png")	#TODO : mettre votre région
+        os.rename(file, "AsieS_" + suffixe + "_" + str(i) + ".png")	#TODO : mettre votre région
         i += 1
     print("Vos fichiers sont sûrement au même niveau que rename.py")
 
 # Renommer les fichiers du répertoire Apprentissage
-rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Apprentissage/AmeriqueDuNord", "A")  #TODO : à modifier avec votre path
+rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Apprentissage/AsieDuSud", "A")  #TODO : à modifier avec votre path
 # Renommer les fichiers du répertoire Validation
-rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Validation/AmeriqueDuNord", "V") #TODO : à modifier avec votre path
+rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Validation/AsieDuSud", "V") #TODO : à modifier avec votre path
 # Renommer les fichiers du répertoire Test
-rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Test/AmeriqueDuNord", "T") #TODO : à modifier avec votre path
+rename_files("/home/lucas/Documents/N7/2A_S8/Appr_Profond/ApprentissageProfond/DataBase/Test/AsieDuSud", "T") #TODO : à modifier avec votre path
